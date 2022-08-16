@@ -8,7 +8,7 @@ export const useApi = () => {
     ? 'https://etherscan.io'
     : 'https://kovan.etherscan.io';
 
-  const apiUrl = isMainnet ? 'http://127.0.0.1:5000' : '';
+  const apiUrl = isMainnet ? '' : '';
 
   // eslint-disable-next-line no-undef
   // const apiUrl = process.env.REACT_APP_API_URI;

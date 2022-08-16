@@ -222,7 +222,7 @@ const LandingPage = () => {
                     </div>
                   </div>
                   <Link
-                    to="https://xana.org/explore/0xada24530284602c993901d01ad0b0c27cefab1fb/1"
+                    to="/explore/0xada24530284602c993901d01ad0b0c27cefab1fb/1"
                     className={styles.exploreButton}
                     style={{
                       // background: 'transparent',
